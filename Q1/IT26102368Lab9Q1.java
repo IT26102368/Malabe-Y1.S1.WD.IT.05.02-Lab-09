@@ -14,12 +14,12 @@ import java.util.Scanner;
       System.out.print("Enter value c : ");	  
       double c = input.nextDouble();
 	  
-	  double x1= ((-b) + Math.sqrt(Math.pow(b, 2)-4*a*c)/2*a);
-      double x2= ((-b) - Math.sqrt(Math.pow(b,2) -4*a*c) /2*a);	
+	  double result1= ((-b) + Math.sqrt(Math.pow(b, 2)-4*a*c)/(2*a);
+      double result2= ((-b) - Math.sqrt(Math.pow(b,2) -4*a*c) /(2*a);	
  
       System.out.println("Roots are real and different : "); 
-	  System.out.println("Root 1 : + x1");
-	  System.out.println("Root 2 : + x2");
+	  System.out.println("Root 1 : + result1");
+	  System.out.println("Root 2 : + result2");
 	  
 	 }
   } 
